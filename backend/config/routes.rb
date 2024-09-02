@@ -18,4 +18,24 @@ Rails.application.routes.draw do
   post '/api/auth/email/forgot', to: 'auth#forgot_password'
   post '/api/auth/email/reset/:token', to: 'auth#reset_password'
 
+  get '/api/account/detail', to: 'account#me'
+  post '/api/account/update', to: 'account#update'
+  post '/api/account/password', to: 'account#password'
+  post '/api/account/upload', to: 'account#upload'
+  get '/api/account/token', to: 'account#token'
+  get '/api/account/activity', to: 'account#activity'
+
+  get '/api/notification/list', to: 'notification#list'
+  get '/api/notification/read/:id', to: 'notification#read'
+  delete '/api/notification/remove/:id', to: 'notification#remove'
+
+  get '/api/article/list', to: 'article#list'
+  post '/api/article/create', to: 'article#create'
+  get '/api/article/read/:slug', to: 'article#read'
+  put '/api/article/update/:id', to: 'article#update'
+  delete '/api/article/remove/:id', to: 'article#remove'
+  get '/api/article/user', to: 'article#user'
+  post '/api/article/upload', to: 'article#upload'
+  get '/api/article/words', to: 'article#word'
+
 end

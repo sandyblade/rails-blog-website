@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
-  create_table "activities", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "activities", charset: "latin1", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.string "event", null: false
     t.string "description", null: false
@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
     t.index ["user_id"], name: "index_activities_on_user_id"
   end
 
-  create_table "articles", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "articles", charset: "latin1", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.string "image", limit: 191
     t.string "slug", null: false
@@ -49,7 +49,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
     t.index ["user_id"], name: "index_articles_on_user_id"
   end
 
-  create_table "comments", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "comments", charset: "latin1", force: :cascade do |t|
     t.bigint "parent_id"
     t.bigint "article_id", null: false
     t.bigint "user_id", null: false
@@ -63,7 +63,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
-  create_table "notifications", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "notifications", charset: "latin1", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.string "subject", null: false
     t.string "message", null: false
@@ -76,7 +76,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
     t.index ["user_id"], name: "index_notifications_on_user_id"
   end
 
-  create_table "users", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "users", charset: "latin1", force: :cascade do |t|
     t.string "email", limit: 191, null: false
     t.string "phone", limit: 20
     t.string "password_digest"
@@ -117,7 +117,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_061019) do
     t.index ["updated_at"], name: "index_users_on_updated_at"
   end
 
-  create_table "viewers", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+  create_table "viewers", charset: "latin1", force: :cascade do |t|
     t.bigint "article_id", null: false
     t.bigint "user_id", null: false
     t.integer "status", limit: 2, default: 0
