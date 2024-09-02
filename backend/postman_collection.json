@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"summer.pollich90@yahoo.com\",\r\n    \"password\":\"P@ssw0rd!123\"\r\n}",
+							"raw": "{\r\n    \"email\":\"quiana@white.example\",\r\n    \"password\":\"P@ssw0rd!123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"sandyandryanto@gmail003.com\",\r\n    \"password\":\"P@ssw0rd!123\",\r\n    \"password_confirm\":\"P@ssw0rd!123\"\r\n}",
+							"raw": "{\r\n    \"email\":\"sandy.andryanto001@gmail.com\",\r\n    \"password\":\"P@ssw0rd!123\",\r\n    \"password_confirm\":\"P@ssw0rd!123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -69,14 +69,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseURL}}api/auth/confirm/4bb791dd-162a-4a3e-a62f-847c71ccbbb7",
+							"raw": "{{baseURL}}api/auth/confirm/45e68495-880b-4ac5-929b-03a35cfc52f5",
 							"host": [
 								"{{baseURL}}api"
 							],
 							"path": [
 								"auth",
 								"confirm",
-								"4bb791dd-162a-4a3e-a62f-847c71ccbbb7"
+								"45e68495-880b-4ac5-929b-03a35cfc52f5"
 							]
 						}
 					},
@@ -89,7 +89,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"sandyandryanto@gmail003.com\"\r\n}",
+							"raw": "{\r\n    \"email\":\"joesph@larkin-thiel.test\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -117,7 +117,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"sandyandryanto@gmail003.com\",\r\n    \"password\":\"P@ssw0rd!123\",\r\n    \"password_confirm\":\"P@ssw0rd!123\"\r\n}",
+							"raw": "{\r\n    \"email\":\"joesph@larkin-thiel.test\",\r\n    \"password\":\"P@ssw0rd!123\",\r\n    \"password_confirm\":\"P@ssw0rd!123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -125,7 +125,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}api/auth/email/reset/76d30c27-23e1-412c-aa98-ba7f692bb4b3",
+							"raw": "{{baseURL}}api/auth/email/reset/33492095-2255-4161-8c26-0aa508105959",
 							"host": [
 								"{{baseURL}}api"
 							],
@@ -133,7 +133,7 @@
 								"auth",
 								"email",
 								"reset",
-								"76d30c27-23e1-412c-aa98-ba7f692bb4b3"
+								"33492095-2255-4161-8c26-0aa508105959"
 							]
 						}
 					},

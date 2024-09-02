@@ -9,6 +9,5 @@
  * with this source code.
 =end
 
-class Comment < ApplicationRecord
-    belongs_to :user
+class CommentController < ApplicationController
 end

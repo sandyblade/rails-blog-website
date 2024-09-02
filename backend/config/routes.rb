@@ -11,4 +11,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  post '/api/auth/login', to: 'auth#login'
+  post '/api/auth/register', to: 'auth#register'
+  get '/api/auth/confirm/:token', to: 'auth#confirm'
+  post '/api/auth/email/forgot', to: 'auth#forgot_password'
+  post '/api/auth/email/reset/:token', to: 'auth#reset_password'
+
 end
