@@ -15,7 +15,7 @@ class CreateComments < ActiveRecord::Migration[7.2]
       t.bigint :parent_id, null: true
       t.bigint :article_id, null: false
       t.bigint :user_id, null: false
-      t.string :comment, limit: 255, null: false
+      t.text :comment, limit: 4294967295, null: false
       t.timestamps
     end
     add_index :comments, :parent_id

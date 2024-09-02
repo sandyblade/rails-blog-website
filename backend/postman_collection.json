@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "7ca3caf2-dbfb-43e7-abd2-ddc327e3e5c5",
+		"_postman_id": "57ce4bee-706f-45a5-938d-c7a44bcaa5e1",
 		"name": "Rails REST API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "20338099"
+		"_exporter_id": "17401019"
 	},
 	"item": [
 		{
@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"quiana@white.example\",\r\n    \"password\":\"P@ssw0rd!123\"\r\n}",
+							"raw": "{\r\n    \"email\":\"delmer_greenholt@legros.test\",\r\n    \"password\":\"P@ssw0rd!123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -196,7 +196,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"current_password\":\"P@ssw0rd!123\",\r\n    \"password\":\"P@ssw0rd!123\",\r\n    \"password_confirmation\":\"P@ssw0rd!123\"\r\n}",
+							"raw": "{\r\n    \"current_password\":\"P@ssw0rd!123\",\r\n    \"new_password\":\"P@ssw0rd!123\",\r\n    \"new_password_confirm\":\"P@ssw0rd!123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -225,9 +225,9 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "file_image",
+									"key": "file",
 									"type": "file",
-									"src": []
+									"src": "/C:/Users/MKI-007/Pictures/pic2.PNG"
 								}
 							]
 						},
@@ -380,7 +380,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"What is Lorem Ipsum ? (Part 3)\",\r\n    \"description\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\",\r\n    \"content\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\r\n    \"status\": 1,\r\n    \"categories\":[\"Sport\",\"News\",\"Technology\",\"Culinary\",\"Politic\",\"Economic\"],\r\n    \"tags\":[\"Favorite\",\"Hot News\",\"Best Seller\"]\r\n}",
+							"raw": "{\r\n    \"title\": \"What is Lorem Ipsum 003\",\r\n    \"description\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\",\r\n    \"content\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\r\n    \"status\": 1,\r\n    \"categories\":[\"Sport\",\"News\",\"Technology\",\"Culinary\",\"Politic\",\"Economic\"],\r\n    \"tags\":[\"Favorite\",\"Hot News\",\"Best Seller\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -597,7 +597,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImlhdCI6MTcyNDMzMzQyNCwiZXhwIjoxNzI0NDE5ODI0fQ.OBxHNwoMuFsK89JeizZJcszn1mmemYduun3RA5Xzm6o",
+				"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3MjUzMzQ1MTd9.GFWXop-hkf2RKIMD7CrPvCMTnux3qIi1CGwUx_B5PuA",
 				"type": "string"
 			}
 		]

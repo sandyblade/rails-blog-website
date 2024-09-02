@@ -38,4 +38,8 @@ Rails.application.routes.draw do
   post '/api/article/upload', to: 'article#upload'
   get '/api/article/words', to: 'article#word'
 
+  get '/api/comment/list/:id', to: 'comment#list'
+  post '/api/comment/create/:id', to: 'comment#create'
+  delete '/api/comment/remove/:id', to: 'comment#remove'
+
 end
